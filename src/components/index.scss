@@ -1,0 +1,21 @@
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  animation: rotate 1s linear infinite;
+}
+
+.text:nth-of-type(odd) {
+  background: palegoldenrod;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
